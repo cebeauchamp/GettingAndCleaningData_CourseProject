@@ -39,5 +39,5 @@ final_tidy <- summarise_each(group_subjects,funs(mean))
 #Final Step Write table to .txt
 write.table(final_tidy,"tidydata.txt",row.name=FALSE)
 
-#output of tidy data
-final_tidy
+#output of tidy data!
+str(final_tidy)
